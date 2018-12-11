@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat") ;
+
+@import url("components/container.css") ;
+
+@import url("components/avatar.css") ;
+
+@import url("components/button.css") ;
+
+@import url("components/banner.css") ;
+
+@import url("components/card.css") ;
+
+@import url("components/div.css") ;
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px ;
+	margin: 0px;
+	text-align: center;
+}
+
+h1,h2,h3 {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+}
+
+@media (max-width: 960px ) { 
+	.container {  
+		width: 700px
+		} 
+	}
+
+@media (max-width: 720px ) { 
+	.container {  
+		width: 500px
+		} 
+	}
+
+@media (max-width: 540px ) { 
+	.container {  
+		width: 300px
+		} 
+	}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+.premier_plan {
+	background-color: #ffdfdf;
+	padding: 10px;  
+}
+
+.deuxieme_plan {
+	background-color: #ffc0c2; 
+	padding: 10px; 
+}
+
+#titre1 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #AD1515;
+	padding: 10px auto;
+}
+
+#Basket {
+	background-image: url(../images/Basket.jpg); 
+	width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+    margin: auto;
+    border-left: 50px;
+}
+
+#Basket:hover {
+	background-image: url(../images/Basket1.jpg);
+}
+
+#Foot{
+	background-image: url(../images/Foot.jpg); 
+	width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+	margin: auto;
+	border-right: 50px;
+}
+
+#Foot:hover {
+	background-image: url(../images/Foot1.jpg);
+}
+
+#Restaurant {
+	background-image: url(../images/Restaurant.jpg); 
+	width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+    margin: auto;
+}
+
+#Restaurant:hover {
+	background-image: url(../images/Restaurant1.jpg);
+}
+
+#Soiree {
+	background-image: url(../images/Soiree.jpg); 
+	width: 300px;
+    height: 400px;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+    margin: auto;
+}
+
+#Soiree:hover {
+	background-image: url(../images/Soiree1.jpg);
+}
+
+#Facebook { 
+	color: #6b76ff ;
+	padding: 15px 20px ; 
+	border-radius: 4px ;
+	text-align: center; 
+ }
+
+#Facebook:hover {
+ 	color: #1f4287;
+ }
+
+#Linkedin { 
+	color: #6b76ff ;
+	padding: 15px 20px ; 
+	border-radius: 4px ;
+	text-align: center; 
+ }
+
+#Linkedin:hover {
+ 	color: #1f4287;
+ }
+
+#Instagram { 
+	color: #a8026f ;
+	padding: 15px 20px ; 
+	border-radius: 4px ;
+	text-align: center; 
+ }
+
+#Instagram:hover {
+ 	color: #db2d43;
+ }
+
+.list-inline li { 
+ 	display: inline;
+ 	padding : 10px ;
+ 	text-align: center;
+  }
+
+.list-inline i {
+  	font-size: 50px ; 
+  	text-align: center;
+	}
+
+.giphy-embed {
+  	text-align: center;
+  	font-size: 100px;
+	}
+
